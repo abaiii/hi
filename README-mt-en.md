@@ -1,5 +1,5 @@
 # Hi, Francie Jiang! [^1]
-Francie Jiang actually has a Chinese name called ** Jiang Bing **. ~~(Definitely not a gingerbread man--definitely not--)~~
+Francie Jiang actually has a Chinese name called **Jiang Bing**. ~~(Definitely not a gingerbread man--definitely not--)~~
 
 To put it simply, Francie Jiang is an ~~illiterate~~ husband.
 
