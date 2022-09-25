@@ -4,121 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Francie Jiang</title>
-    <link rel="stylesheet" href="./assets/tailwind.css">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Aboreto|Oswald|Varela+Round|Sarabun">
-    <link rel="stylesheet" href="./assets/fonts.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    <link rel="stylesheet" href="./assets/custom.css">
+    <title>Under construction...</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope|Rubik|Satisfy|Noto+Sans+SC">
+    <style>
+        /* Do not use CSS like I do. */
+        h1 {
+            font-family: "Rubik", "Noto Sans SC"
+        }
+        .manrope {
+            font-family: "Manrope", "Noto Sans SC"
+        }
+        .hw {
+            font-family: "Satisfy", "Noto Sans SC"
+        }
+    </style>
 </head>
-<body class="bg-neutral-200 dark:bg-neutral-500">
-    <div class="flex w-full h-full">
-        <!-- Background -->
-        <div class="fixed z-0 flex w-full h-screen flex-col items-center lg:items-end justify-end">
-            <div class="text-3xl lg:text-6xl opacity-25 m-4 dark:text-zinc-200 ffamily-aboreto">
-                Francie Jiang
+
+<body class="bg-neutral-100 dark:bg-neutral-700 dark:text-white">
+
+    <div class="flex justify-center items-center min-h-screen flex-col w-full">
+
+        <div class="w-4/5 lg:w-1/2 manrope">
+            <span id="languageTag">要阅读中文版本？</span><a href="javascript:toggleLanguage()" class="underline" id="clickme">点我!</a>
+        </div>
+
+        <h1 class="mt-1 text-2xl lg:text-5xl w-4/5 lg:w-1/2" id="tag">
+            Under construction...
+        </h1>
+
+        <div class="manrope text-xl mt-2 w-4/5 lg:w-1/2" id="announcement">
+            This prosaic site owner is currently locked in her school. <br> However, she wants to reconstruct her personal website during her National Day holiday. <br>
+            Therefore, she spent a couple of minutes designing this site to announce its indefinite return. <br>
+            Hope her new homepage meets you and meets you soon. <br>
+        </div>
+
+        <div class="mt-2 lg:mt-3 w-4/5 lg:w-1/2 manrope text-center lg:text-left">
+            <strong><span class="hw text-2xl">Francie Jiang</span></strong><br>
+            <div id="time">
+                25 September 2022
             </div>
         </div>
-        <div class="absolute z-10 flex w-full h-screen items-center justify-center">
-            <div class="w-4/5 lg:w-3/5 min-h-max max-h-screen bg-neutral-100 text-zinc-800 dark:text-zinc-200 dark:bg-neutral-400 rounded-sm p-2 flex flex-col ffamily-main">
 
-                <div class="w-full h-1/4 flex flex-col lg:flex-row">
-                    <!-- The brief introduction -->
-                    <div class="w-fit h-full flex text-4xl ffamily-oswald lg:pr-4 lg:border-r-2 lg:border-zinc-800 dark:lg:border-zinc-200">
-                        Francie Jiang
-                    </div>
-                    <div class="w-full h-full lg:h-10 text-sm mt-2 lg:mt-0 lg:leading-10 lg:text-base lg:w-fit lg:pl-4 ffamily-varela-round flex flex-row lg:pr-4 lg:border-r-2 lg:border-zinc-800 dark:lg:border-zinc-200 lg:items-center lg:justify-center lg:pt-1">
-                        <div class="w-full h-full flex">
-                            <!-- Gender -->
-                            <div class="w-auto h-full">
-                                <i class="fa-solid fa-venus"></i>
-                            </div>
-                            
-                            <!-- Age -->
-                            <div id="age" class="ml-2 w-auto h-full">
-                                <i id="0"></i>
-                                <i id="1"></i>
-                                <i id="2"></i>
-                            </div>
-
-                            <!-- Location -->
-                            <div class="ml-4">
-                                <i class="fa-solid fa-location-dot"></i> Saveur, Dualduck
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="w-fit pl-4 pt-2 flex-row text-xl lg:flex align-middle hidden">
-                        <a href="https://github.com/franci-e" class="custom-a-dnone pr-4">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                       
-                        <a href="https://blog.franci-e.cc/" class="custom-a-dnone pr-4">
-                            <i class="fa-solid fa-blog"></i>
-                        </a>
-                        <a href="https://blogroll.franci-e.cc/" class="custom-a-dnone pr-4">
-                            <i class="fa-solid fa-book-tanakh"></i>
-                        </a>
-                        <a href="https://twitter.com/franciejiang" class="custom-a-dnone">
-                            <i class="fa-brands fa-twitter">
-                                
-                            </i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="w-full h-full mt-2 text-base lg:text-lg">
-                    Francie Jiang is somehow a full-stack developer, an <a href="https://osu.ppy.sh">osu!</a> player, and for the most trivial part, she is also a senior high student.
-                    <br> <br>
-                    She is currently suffering from an inhumane vacation schedule made by her school, which means that she could only use her own PC for at most 6 hours per weekend, for she has only a 6-hour break each week and a 2-day break each month.
-                    <br> <br>
-                    To know more about her, feel free to read her <a href="/README-zh">Chinese README</a>, <a href="/README-mt-zh">Chinese README (machine translated)</a>, <a href="/README-en">English README</a>, <a href="/README-mt-en">English README (machine translated)</a>
-                </div>
-
-                <div class="w-full h-full flex mt-4 lg:hidden justify-center items-center text-2xl">
-
-                    <a href="https://github.com/franci-e" class="custom-a-dnone pr-4">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                    
-                    <a href="https://blog.franci-e.cc/" class="custom-a-dnone pr-4">
-                        <i class="fa-solid fa-blog"></i>
-                    </a>
-                    <a href="https://blogroll.franci-e.cc/" class="custom-a-dnone pr-4">
-                        <i class="fa-solid fa-book-tanakh"></i>
-                    </a>
-                    <a href="https://twitter.com/franciejiang" class="custom-a-dnone">
-                        <i class="fa-brands fa-twitter">
-
-                        </i>
-                    </a>
-
-                </div>
-            </div>
-        </div>
     </div>
-</body>
-<script>
-    var thisYear = new Date().getFullYear(),
-        birthYear = 2006
+
+    <script>
+        var currentLanguage = 0; // 0 = English, 1 = Chinese
+        languageContent = [
+                {
+                    languageTag: "要阅读中文版本？",
+                    clickMe: "点我！",
+                    tag: "Under construction...",
+                    announcement: "This prosaic site owner is currently locked in her school. <br> However, she wants to reconstruct her personal website during her National Day holiday. <br>Therefore, she spent a couple of minutes designing this site to announce its indefinite return. <br>Hope her new homepage meets you and meets you soon. <br>",
+                    time: "25 September 2022"
+                },
+                {
+                    languageTag: "Wanna read the English version?  ",
+                    clickMe: "Click me!",
+                    tag: "正在修建...",
+                    announcement: "这个人正在学校受苦，但是她想在国庆假期重构她的网站。<br>希望她能记住这档子事然后赶快重构。<br>还有一个英文版没有的信息：恭喜这个 B 大概率获得了一次提前高考的机会。<br>",
+                    time: "2022 年 9 月 25 日"
+                }
+        ];
+        function toggleLanguage() {
+            
+            currentLanguage = Number(!currentLanguage);
+            // Also do not use innerHTML like me. It's really easy to inject code with it.
+            var ltg = document.getElementById("languageTag"),
+                cme = document.getElementById("clickme"),
+                tag = document.getElementById("tag"),
+                ann = document.getElementById("announcement"),
+                tme = document.getElementById("time");
+            ltg.innerHTML = languageContent[currentLanguage].languageTag;
+            cme.innerHTML = languageContent[currentLanguage].clickMe;
+            tag.innerHTML = languageContent[currentLanguage].tag;
+            ann.innerHTML = languageContent[currentLanguage].announcement;
+            tme.innerHTML = languageContent[currentLanguage].time;
+        }
     
-    var age = document.getElementById('age'),
-        ageIs = [
-            document.getElementById('0'),
-            document.getElementById('1'),
-            document.getElementById('2')
-        ]
+    </script>
 
-    var strDiff = String(thisYear - birthYear)
+</body>
 
-    for (var i = 0; i < strDiff.length; i++) {
-        // Such a line of sh*t code...
-        // |
-        // |
-        // v
-        ageIs[i].setAttribute("class", `fa-solid fa-${Number(strDiff[i])}`)
-    }
 
-    // age.textContent = thisYear - birthYear
-</script>
+
 </html>
